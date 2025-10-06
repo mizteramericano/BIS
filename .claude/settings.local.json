@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node:*)",
+      "Bash(curl -X POST http://localhost:5000/api/employees/3/transfer -H \"Content-Type: application/json\" -d \"{\"\"change_type\"\":\"\"Promotion\"\",\"\"new_department_id\"\":1,\"\"new_position_id\"\":2,\"\"new_salary\"\":55000,\"\"effective_date\"\":\"\"2025-10-02\"\",\"\"reason\"\":\"\"เลื่อนตำแหน่งเนื่องจากผลงานดีเด่น\"\",\"\"notes\"\":\"\"ได้รับการพิจารณาเป็นพิเศษ\"\"}\")",
+      "Bash(curl:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
